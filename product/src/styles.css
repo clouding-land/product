@@ -1,0 +1,57 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+img {
+  width: 200px;
+  height: 200px;
+  border-radius:10px;
+}
+.grid {
+  display: grid;
+  margin: 20px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+.navbar {
+  height: 40px;
+  /* width: 300px; */
+  /* margin-left: 500px; */
+  background: bisque;
+  display: "flex";
+  justify-content: space-around;
+  align-items: center;
+  gap: 25px;
+  padding: 5px;
+  /* border: 1px solid black; */
+}
+span{
+  margin-left:0;
+  margin-right:100px;
+}
+.product{
+  height: 500px;
+  width: 350px;
+  margin-left: 450px;
+  padding: 20px;
+  margin-top: 20px;
+  border:2px solid black;
+  border-radius:10px;
+
+}
+table,th,td{
+  border:1px solid;
+  padding:7px;
+  margin:10px;
+}
+table{
+  border-collapse: collapse;
+}
+.tab{
+  
+  padding:25px;
+  margin-top:40px;
+}
+td{
+  padding:10px;
+}
